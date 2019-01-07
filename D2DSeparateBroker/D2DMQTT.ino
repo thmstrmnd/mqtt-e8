@@ -1,4 +1,4 @@
-/* Http & Mqtt  */
+/* MQTT*/
 
 #include <ESP8266WiFi.h>                          // WiFi Header  
 #include <PubSubClient.h>                         // MQTT Library                         
@@ -10,8 +10,8 @@ const char* password =  "X9425TE9";
 
 const char* mqttServer = "m14.cloudmqtt.com";
 const int mqttPort = 16120;
-const char* mqttUser = "zzonuxcv";
-const char* mqttPassword = "KlKWRy0PQd3Q";
+const char* mqttUser = "username";                // Set username
+const char* mqttPassword = "password";            // Set password
 
 const char* deviceID = "Esp8266Client02";
 
@@ -106,9 +106,7 @@ void loop() {
       else if (serialValueConv == 0)  {
         digitalWrite(pinOut03, LOW);        
       }
-      /* HTTP For Posting Data */
-
-      /* MQTT For Switching Pins By Subscription */
+      
                                        
     delay(1000);        
   }
