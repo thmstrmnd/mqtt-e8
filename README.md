@@ -17,4 +17,4 @@ An IoT cloud development framework for connecting ESP8266 microcontroller data t
 <img src="https://github.com/TheAssemblyProject/About-This-Project/blob/master/logo.png">
 </p>
 
-<h3 align="center"> This repository is part of an open source project series called <a href="https://github.com/TheAssemblyProject">The Assembly Project.</a></h3>
+<h3 align="center"> This repository is part of an open source project series called <a href="https://github.com/OpenBuildProject">Open Build Project.</a></h3>
